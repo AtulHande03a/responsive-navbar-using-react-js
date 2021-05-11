@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import ReorderIcon from "@material-ui/icons/Reorder ";
+import ReorderIcon from "@material-ui/icons/Reorder";
 import SearchIcon from "@material-ui/icons/Search";
 function Navbar() {
   const [showLinks, setShowLinks] = useState(false);
@@ -19,7 +19,9 @@ function Navbar() {
       </div>
       <div className="rightSide">
         <input type="text" placeholder="Search.." />
-        <button></button>
+        <button>
+          <SearchIcon />
+        </button>
       </div>
     </div>
   );
